@@ -595,4 +595,4 @@ if __name__ == "__main__":
     )
     args = argparser.parse_args()
 
-    demo.launch(server_name=args.host, server_port=args.port, root_path="/hivision")
+    demo.launch(server_name=args.host, server_port=args.port, root_path="/hivision", ssl_keyfile=None, ssl_certfile=None, ssl_verify=False)
